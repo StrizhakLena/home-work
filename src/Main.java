@@ -1,34 +1,34 @@
 /**
  * Created by Strizhak on 29.02.2016.
  */
-public class Kingdom {
-   protected String name;
-    protected String king ;
-    protected String queen;
-    protected int adviser;
-    protected int maid;
+    public class Kingdom {
+    protected String Name;
+    protected String King ;
+    protected String Queen;
+    protected int Quantity_adviser;
+    protected int Quantity_maid;
 
-    public void setName(String name) {
+    public void setName(String Name) {
         this.name = name;
     }
 
-    public void setking(String king) {
+    public void setKing(String King) {
         this.king = king;
     }
 
-    public void setqueen(String queen) {
+    public void setQueen(String Queen) {
         this.queen =queen;
     }
 
-    public void setadviser(int adviser) {
-        this.adviser = adviser;
+    public void setQuantity_adviser(int Quantity_adviser) {
+        this.Quantity_adviser = Quantity_adviser;
     }
 
-    public void setmaid(int maid) {
-        this.maid = maid;
+    public void setQuantity_maid(int Quantity_maid) {
+        this.Quantity_maid = Quantity_maid;
     }
     public String read() {
-        String result = "About kingdom \nName: " + this.name + "\nking: " + this.king + "\nqueen: " + this.queen + "\nadviser: " + this.adviser + "\nmaid: " + this.maid;
+        String result = "About kingdom \nName: " + this.Name + "\nKing: " + this.King + "\nQueen: " + this.Queen + "\nQuantity_adviser: " + this.Quantity_adviser + "\nQuantity_maid: " + this.Quantity_maid;
         return result;
     }
 
