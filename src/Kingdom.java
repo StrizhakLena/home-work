@@ -20,11 +20,11 @@
         this.queen =queen;
     }
 
-    public void setQuantity_adviser(int Quantity_adviser) {
+    public void setQuantityAdviser(int Quantity_adviser) {
         this.Quantity_adviser = Quantity_adviser;
     }
 
-    public void setQuantity_maid(int Quantity_maid) {
+    public void setQuantityMaid(int Quantity_maid) {
         this.Quantity_maid = Quantity_maid;
     }
     public String read() {
