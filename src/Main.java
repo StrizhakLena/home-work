@@ -3,8 +3,18 @@
  */
 public class Main {
     public static void main(String[] args) {
-        Kingdom a = new Kingdom();
-        String n = a.toString();
-        System.out.println(n);
+        
+        
+        KIngdom kingdomr = new Kingdom ();
+
+        worker.setNameofKingdom("Magical");
+        worker.setNameOfKing("Rudolf");
+        worker.setNameOfQueen("Sara");
+        worker.setTheQuantityOfAdviser(10);
+        worker.setTheQuantityOfMaid(20);
+        worker.setAddress("England");
+        
+        
+        System.out.println(Kingdom.read());
     }
 }
