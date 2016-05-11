@@ -2,45 +2,45 @@
  * Created by Strizhak on 29.02.2016.
  */
 public class Kingdom {
-    protected String NameofKingdom;
-    protected String NameOfKing;
-    protected String NameOfQueen;
-    protected int TheQuantityOfAdviser;
-    protected int TheQuantityOfMaid;
-    protected String Address;
+    protected String nameOfKingdom;
+    protected String nameOfKing;
+    protected String nameOfQueen;
+    protected int theQuantityOfAdviser;
+    protected int theQuantityOfMaid;
+    protected String address;
 
-    public void setNameofKingdom(String nameofkingdom) {
-        this.NameofKingdom = nameofkingdom;
+    public void setNameOfKingdom(String nameofkingdom) {
+        this.nameOfKingdom = nameofkingdom;
     }
-    public String getNameofKingdom() {return NameofKingdom;}
+    public String getNameOfKingdom() {return nameOfKingdom;}
 
     public void setNameOfKing(String nameofking) {
-        this.NameOfKing = nameofking;
+        this.nameOfKing = nameofking;
     }
-    public String getNameofKing() {return NameOfKing;}
+    public String getNameofKing() {return nameOfKing;}
 
     public void setNameOfQueen(String nameofqueen) {
-        this. NameOfQueen =nameofqueen;
+        this.nameOfQueen =nameofqueen;
     }
-    public String getNameofQueen() {return NameOfQueen;}
+    public String getNameofQueen() {return nameOfQueen;}
 
     public void setTheQuantityOfAdviser(int thequantityofadviser) {
-        this.TheQuantityOfAdviser = thequantityofadviser;
+        this.theQuantityOfAdviser = thequantityofadviser;
     }
-    public int getTheQuantityOfAdviser() {return TheQuantityOfAdviser;}
+    public int getTheQuantityOfAdviser() {return theQuantityOfAdviser;}
 
     public void setTheQuantityOfMaid(int thequantityofmaid) {
-        this.TheQuantityOfMaid = thequantityofmaid;
+        this.theQuantityOfMaid = thequantityofmaid;
     }
-    public int getTheQuantityOfMaid() {return TheQuantityOfMaid;}
+    public int getTheQuantityOfMaid() {return theQuantityOfMaid;}
 
     public void setAddress(String Address) {
-        this.Address = Address;
+        this.address = Address;
     }
 
-    public String getAddress() {return Address;}
+    public String getAddress() {return address;}
     public String read() {
-        String result = "About kingdom \nNameofKingdom: " + this.NameofKingdom + "\nNameOfKing: " + this.NameOfKing + "\nNameOfQueen: " + this.NameOfQueen + "\nTheQuantityOfAdviser: " + this.TheQuantityOfAdviser + "\nTheQuantityOfMaid: " + this.TheQuantityOfMaid+ "\nAddress: " + this.Address;
+        String result = "About kingdom \nnameOfKingdom: " + this.nameOfKingdom + "\nnameOfKing: " + this.nameOfKing + "\nnameOfQueen: " + this.nameOfQueen + "\ntheQuantityOfAdviser: " + this.theQuantityOfAdviser + "\ntheQuantityOfMaid: " + this.theQuantityOfMaid + "\naddress: " + this.address;
         return result;
     }
 
