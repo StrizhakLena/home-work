@@ -10,37 +10,37 @@ public class Kingdom {
     protected String Address;
 
     public void setNameofKingdom(String nameofkingdom) {
-        this.nameofkingdom = nameofkingdom;
+        this.NameofKingdom = nameofkingdom;
     }
     public String getNameofKingdom() {return NameofKingdom;}
-    
-    public void setNameOfKing(String NameOfKing) {
-        this.nameofking = nameofking;
-    }
-    public String getNameofKing() {return NameofKing;}
 
-    public void setNameOfQueen(String NameOfQueen) {
-        this.nameofqueen =nameofqueen;
+    public void setNameOfKing(String nameofking) {
+        this.NameOfKing = nameofking;
     }
-    public String getNameofQueen() {return NameofQueen;}
- 
-    public void setTheQuantityOfAdviser(int TheQuantityOfAdviser) {
-        this.thequantityofadviser = thequantityofadviser;
+    public String getNameofKing() {return NameOfKing;}
+
+    public void setNameOfQueen(String nameofqueen) {
+        this. NameOfQueen =nameofqueen;
     }
-    public String getTheQuantityOfAdviser() {return TheQuantityOfAdviser;}
-    
-    public void setTheQuantityOfMaid(int TheQuantityOfMaid) {
-        this.thequantityofmaid = thequantityofmaid;
+    public String getNameofQueen() {return NameOfQueen;}
+
+    public void setTheQuantityOfAdviser(int thequantityofadviser) {
+        this.TheQuantityOfAdviser = thequantityofadviser;
     }
-    public String getTheQuantityOfMaid() {return TheTheQuantityOfMaid;}
-    
+    public int getTheQuantityOfAdviser() {return TheQuantityOfAdviser;}
+
+    public void setTheQuantityOfMaid(int thequantityofmaid) {
+        this.TheQuantityOfMaid = thequantityofmaid;
+    }
+    public int getTheQuantityOfMaid() {return TheQuantityOfMaid;}
+
     public void setAddress(String Address) {
-        this.address = Address;
+        this.Address = Address;
     }
 
     public String getAddress() {return Address;}
     public String read() {
-        String result = "About kingdom \nName: " + this.Name + "\nNameOfKing: " + this.NameOfKing + "\nNameOfQueen: " + this.NameOfQueen + "\nTheQuantityOfAdviser: " + this.TheQuantityOfAdviser + "\nTheQuantityOfMaid: " + this.TheQuantityOfMaid+ "\nAddress: " + this.Address;
+        String result = "About kingdom \nNameofKingdom: " + this.NameofKingdom + "\nNameOfKing: " + this.NameOfKing + "\nNameOfQueen: " + this.NameOfQueen + "\nTheQuantityOfAdviser: " + this.TheQuantityOfAdviser + "\nTheQuantityOfMaid: " + this.TheQuantityOfMaid+ "\nAddress: " + this.Address;
         return result;
     }
 
